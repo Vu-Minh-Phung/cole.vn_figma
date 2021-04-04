@@ -1,0 +1,73 @@
+body
+	header (share UI)
+		section.top-bar
+		section.slideshow-container
+		section.search-container
+	main
+		section.wrap-main-course
+		section.wrap-hot-courses
+		section.wrap-courses-list
+		section.wrap-courses-ads
+		section.facts
+		section.wrap-employees
+		section.wrap-partner
+		section.wrap-endow
+		section.wrap-seen
+		section.wrap-tip
+	footer (share UI)
+		section.inf
+		section.copy-right
+
+section.top-bar
+	div.container
+		div.row
+			div.col
+				div.top-bar__left
+					button.top-bar__category
+						i
+						span(danh mục)
+					button.top-bar__active-courses
+						i 
+						span(Kích hoạt khóa học)
+
+			div.col
+				div.top-bar__center
+					img.top-nav__logo
+
+			div.col
+				div.top-bar__right
+					button.teaching
+						i
+						span(Giảng dạy)
+					button.sign_in
+						span(đăng nhập)
+					button.sign_up
+						span(đăng ký)
+
+	section.homebanner
+		div.homebanner__slideshow
+			div.row
+				div.col > div.homebanner__img * 5 > img
+		div.homebanner__pre
+			i(<)
+		div.homebanner__next
+			i(>)
+
+	section.home-search
+		div.home-search__search-container
+			input[type="text"]
+			button.home-search__icon-search
+				i
+		div.facts
+			div.row
+				div.col-3 * 4
+					div.facts-item
+						div.fact-items__image
+						p.fact-items__name
+			div.row
+				div.col-3 * 4
+					div.facts-item
+						div.fact-items__image
+						p.fact-items__name
+
+	section.

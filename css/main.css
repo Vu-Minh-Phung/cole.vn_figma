@@ -1,6 +1,22 @@
+:root {
+	--bg-main: #F9FAFC;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body {
+	/* FONT */
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;	
+	/*Color*/
+	background-color: var(--bg-main);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
